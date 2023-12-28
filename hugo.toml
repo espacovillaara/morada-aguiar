@@ -79,11 +79,10 @@ languageName = "English"
 languageFlag = "🇺🇸"
 weight = 2
 
-
 [[params.buttons]]
 title = "booking"
 image = "booking.png"
-link = "https://booking.hqbeds.com.br/espacovillaara"
+link = "booking.hqbeds.com.br/moradaaguiar"
 
 [[params.buttons]]
 title = "whatsapp"
