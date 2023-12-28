@@ -1,0 +1,91 @@
+title = "Morada Aguiar"
+languageCode = "en-us"
+copyright = "© Todos os direitos reservados"
+disableKinds = ["taxonomy", "term"]
+defaultContentLanguage = "pt-br"
+enableRobotsTXT = true
+timeZone = "America/Sao_Paulo"
+theme = "gallery"
+
+[params]
+  title = "Morada Aguiar"
+  description = "Pousada Morada Aguiar"
+  defaultTheme = "light"
+
+[author]
+  name = "Morada Aguiar"
+
+[outputs]
+  page = ["HTML"]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.112.0"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "hugo_stats.json"
+    target = "assets/watching/hugo_stats.json"
+
+[build]
+  writeStats = true
+  [[build.cachebusters]]
+    source = "assets/watching/hugo_stats\\.json"
+    target = "styles\\.css"
+  [[build.cachebusters]]
+    source = "(postcss|tailwind)\\.config\\.js"
+    target = "css"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(js)"
+    target = "js"
+  [[build.cachebusters]]
+    source = "assets/.*\\.(.*)$"
+    target = "$1"
+
+[menu]
+[[menu.footer]]
+  name = "Trip Advisor"
+  url = "https://www.tripadvisor.com/Restaurant_Review-g20379436-d26157505-Reviews-Espaco_Villa_Ara-Praia_de_Aracatiba_Angra_Dos_Reis_State_of_Rio_de_Janeiro.html"
+  weight = 2
+  [menu.footer.params]
+  image = ""
+[[menu.footer]]
+  name = "Instagram"
+  url = "https://www.instagram.com/pousadavillaara/"
+  image = "images/bla.png"
+  weight = 3
+  [menu.footer.params]
+  image = ""
+
+[languages.pt-br]
+languageName = "Portugues Brasil"
+languageFlag = "🇧🇷"
+weight = 1
+
+[languages.en]
+languageName = "English"
+languageFlag = "🇺🇸"
+weight = 2
+
+
+[[params.buttons]]
+title = "booking"
+image = "booking.png"
+link = "https://booking.hqbeds.com.br/espacovillaara"
+
+[[params.buttons]]
+title = "whatsapp"
+phone = "5519991599786"
+message = "Olá, gostaria de fazer uma reserva"
