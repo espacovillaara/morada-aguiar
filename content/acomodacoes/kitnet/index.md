@@ -23,4 +23,4 @@ weight: 1
 
 A kitnet da Morada Aguiar é uma construção em madeira de Lei, possui  24 m2 de área sendo, constituindo de um ambiente com cozinha integrada e banheiro privado, comporta até 04 pessoas. A cozinha completa propicia a facilidade de fazer seus próprios lanches e refeições.
 
-Está equipada com geladeira, pia, fogão, forno microondas, armários, utensílios de cozinha, mesa e cadeiras, ventilador de teto, ar condicionado split inverter, TV (parabólica), Wi-Fi,  uma confortável cama de casal BOX, um colchão para casal (sofá cama), uma cama de solteiro auxiliar (baixa). Banheiro com espelho, armário e box de vidro blindex.
+Está equipada com geladeira, pia, fogão, forno microondas, armários, utensílios de cozinha, mesa e cadeiras, ventilador de teto, ar condicionado split inverter, TV (parabólica), Wi-Fi, uma confortável cama de casal e uma cama beliche. Banheiro com espelho, armário e box de vidro blindex.

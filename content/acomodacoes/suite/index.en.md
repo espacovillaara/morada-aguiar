@@ -1,9 +1,9 @@
 ---
-title: Suíte
+title: Suite
 featured_image: 1.jpeg
 profile_image: "logo.jpeg"
 button_url: "https://booking.hqbeds.com.br/espacovillaara"
-button_desc: "Reserve já"
+button_desc: "Book now"
 viemo_code: ""
 background_image: ""
 features:
