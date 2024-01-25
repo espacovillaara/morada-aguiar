@@ -82,7 +82,7 @@ weight = 2
 [[params.buttons]]
 title = "booking"
 image = "booking.png"
-link = "booking.hqbeds.com.br/moradaaguiar"
+link = "https://booking.hqbeds.com.br/moradaaguiar"
 
 [[params.buttons]]
 title = "whatsapp"

@@ -2,7 +2,7 @@
 title: Conheça o Morada Aguiar
 featured_image: 1.jpeg
 profile_image: "logo.jpeg"
-button_url: "https://booking.hqbeds.com.br/espacovillaara"
+button_url: "https://booking.hqbeds.com.br/moradaaguiar"
 button_desc: "Reserve já"
 viemo_code: ""
 background_image: ""
